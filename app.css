@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0 auto; 
 }
+body{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
 ul,
 ol{
     list-style: none;
@@ -19,14 +22,18 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.container{
-    margin: 20px;
+.card{
+    margin-top: 50px;
 }
+
 img{
     width: 250px;
 }
+.image-caption{
+    margin-top: 2px;
+}
 /* DEBUG RULES */
-
+/* 
 .debug .container{
     border: 2px dashed black;    
 }
@@ -47,4 +54,4 @@ img{
 
 .debug .bg-acqua{
     border: 2px dashed white;   
-}
+} */
