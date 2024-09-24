@@ -1,0 +1,50 @@
+/* GENERALS */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto; 
+}
+ul,
+ol{
+    list-style: none;
+}
+
+.col-33{
+    width: calc(100%/3);
+}
+/* MAIN */
+main{
+    display:flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    margin: 20px;
+}
+img{
+    width: 250px;
+}
+/* DEBUG RULES */
+
+.debug .container{
+    border: 2px dashed black;    
+}
+.debug .row{
+    border:2px dashed black;
+    padding: 16px;
+}
+.debug .row-ft{
+    border:2px dashed black;
+    padding: 3px 15px;
+    background-color:pink ;
+    gap: 400px;
+}
+
+.p-35 .row{
+    border: 2px dashed black;
+}
+
+.debug .bg-acqua{
+    border: 2px dashed white;   
+}
