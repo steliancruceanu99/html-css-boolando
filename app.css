@@ -56,31 +56,37 @@ img{
     width: 20px;
     align-items: center;
 }
-.row:has(.cuore){
+.heart-cont{
     background-color: white;
     display: flex;
+    position: absolute;
     width: 30px;
     height: 30px;
-    position: relative;
-    bottom:40px;
     justify-content: center; 
+    bottom: 300px;
+    left: 220px;
 }
+
 .sconto-e-targ{
     display: flex;
     font-size: 13px;
     margin: 0 auto;
     position: absolute;
-    bottom: 150px;
+    bottom: 32px;
+    color: white;
 }
 .bg-red{
     background-color: red;
     padding: 3px 6px;
-    margin:0
+    margin:0;
 }
 .bg-green{
     background-color: green;
     padding: 3px 6px;
     margin: 0 3px;
+}
+.container{
+    position: relative;
 }
 /* DEBUG RULES */
 /* 
